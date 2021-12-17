@@ -1,0 +1,16 @@
+.mid{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.mid>a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 35px;
+    transition: transform 450ms;
+}
+.mid>a:hover{
+    transform:scale(1.08)
+}
